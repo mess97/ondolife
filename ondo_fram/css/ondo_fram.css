@@ -141,6 +141,10 @@ menu a:hover {
   max-width: 1000px;
   width: 100%;
 }
+.wt——500 {
+  max-width: 500px;
+  width: 100%;
+}
 
 /* 字体样式 */
 /* 字体粗细 */
@@ -165,6 +169,22 @@ menu a:hover {
 }
 .ft-s_40 {
   font-size: 40px;
+}
+
+.ft-s_2vw {
+  font-size: 2vw;
+}
+
+.ft-s_3vw {
+  font-size: 3vw;
+}
+.ft-s_3-5vw {
+  font-size: 3.5vw;
+}
+
+.ft-s_4vw {
+  font-weight: 100;
+  font-size: 3vw;
 }
 
 /* 颜色 */
@@ -218,6 +238,9 @@ menu a:hover {
 .pd_30 {
   padding: 30px;
 }
+.pd_40 {
+  padding: 40px;
+}
 
 .pd_t10 {
   padding-top: 10px;
@@ -232,10 +255,6 @@ menu a:hover {
 
 .pd_20 {
   padding: 20px;
-}
-
-.pd_40 {
-  padding: 40px;
 }
 
 .pd_L40 {
@@ -255,6 +274,12 @@ menu a:hover {
 
 .pd_BT15RL30 {
   padding: 15px 30px;
+}
+
+@media screen and (max-width: 750px) {
+  .pd_40 {
+    padding: 20px;
+  }
 }
 
 /* margin 外边距属性*/

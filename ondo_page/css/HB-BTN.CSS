@@ -1,6 +1,6 @@
 .navbar_togglebtn {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 32px;
   right: 35px;
   z-index: 122;

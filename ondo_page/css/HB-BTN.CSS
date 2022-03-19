@@ -1,0 +1,50 @@
+.navbar_togglebtn {
+  display: none;
+  position: fixed;
+  top: 32px;
+  right: 35px;
+  z-index: 122;
+}
+
+.hamburger-btn {
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+  width: 25px;
+  height: 30px;
+  margin: 0%;
+}
+
+.hamburger-btn span {
+  position: absolute;
+  height: 2.8px;
+  border-radius: 100px;
+  width: 100%;
+  background-color: black;
+  top: 0;
+  transition: 0.4s;
+}
+
+.hamburger-btn span:nth-child(1) {
+  top: 0;
+}
+.hamburger-btn span:nth-child(2),
+.hamburger-btn span:nth-child(3) {
+  top: 9px;
+}
+.hamburger-btn span:nth-child(4) {
+  top: 18px;
+}
+
+.hamburger-btn.active span:nth-child(1),
+.hamburger-btn.active span:nth-child(4) {
+  opacity: 0;
+}
+.hamburger-btn.active span:nth-child(2) {
+  transform: rotate(45deg);
+}
+.hamburger-btn.active span:nth-child(3) {
+  transform: rotate(-45deg);
+}

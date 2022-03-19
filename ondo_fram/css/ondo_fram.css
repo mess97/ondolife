@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+/* 基本页面外层的布局 */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-box {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* 页面缩小后_基本页面外层的布局 */
+
+/* 基本属性 */
+/* 整体的基本属性 */
+body {
+  margin: 0px;
+  font-weight: 400;
+  font-family: "Noto Sans KR", sans-serif;
+}
+header {
+  width: 100%;
+}
+main {
+  width: 100%;
+}
+menu {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+footer {
+  width: 100%;
+}
+
+/* 链接的基本属性 */
+a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+}
+menu a {
+  margin-left: 30px;
+}
+menu a:hover {
+  opacity: 2;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+/* display 显示样式 */
+
+/* Position 定位样式 */
+.top_fixed {
+  position: fixed;
+  top: 0;
+}
+.top_sticky {
+  position: sticky;
+  top: 0;
+}
+
+.top_relative {
+  position: relative;
+  top: 0;
+}
+.top_static {
+  position: static;
+  top: 0;
+}
+
+.top_absolute {
+  position: absolute;
+  top: 0;
+}
+
+/* 层级样式 */
+.z-i_0 {
+  z-index: 0;
+}
+
+.z-i_1313 {
+  z-index: 1313;
+}
+
+/* logo样式 */
+/* kr-logo的基本样式 */
+.kr-logo_30 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Jua", sans-serif;
+  z-index: 1000;
+}
+.kr-logo_30 a:hover {
+  font-weight: 500;
+}
+
+/* 图形样式 */
+/* 图形边角样式*/
+.BD-RD_10 {
+  border-radius: 10px;
+}
+.BD-RD_15 {
+  border-radius: 15px;
+}
+.BD-RD_25 {
+  border-radius: 25px;
+}
+
+.BD-RD_L15 {
+  border-radius: 15px 0px 0px 15px;
+}
+.BD-RD_L10 {
+  border-radius: 10px 0px 0px 10px;
+}
+.BD-RD_R15 {
+  border-radius: 0px 15px 15px 0px;
+}
+.BD-RD_R10 {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.BD-RD_B25 {
+  border-radius: 0px 0px 25px 25px;
+}
+
+/* BOX-图形阴影 */
+.BX-S_15 {
+  box-shadow: 0 0 15px #999;
+}
+.BX-S_ONDO {
+  box-shadow: 0px 14px 80px rgb(34 35 58 / 20%);
+}
+
+/* 图形长宽 */
+.wt——1000 {
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* 字体样式 */
+/* 字体粗细 */
+.ft-w_600 {
+  font-weight: 600;
+}
+/* 字体大小 */
+.ft-s_15 {
+  font-size: 15px;
+}
+.ft-s_17 {
+  font-size: 17px;
+}
+.ft-s_20 {
+  font-size: 20px;
+}
+.ft-s_25 {
+  font-size: 25px;
+}
+.ft-s_30 {
+  font-size: 30px;
+}
+.ft-s_40 {
+  font-size: 40px;
+}
+
+/* 颜色 */
+/* 背景颜色 */
+.bg_wt {
+  background-color: #fff;
+}
+.bg_01 {
+  background-color: black;
+}
+.bg_02 {
+  background-color: brown;
+}
+.bg_03 {
+  background-color: antiquewhite;
+}
+
+/* 对齐方式 */
+
+/* flex-direction 属性规定项目的方向。 */
+.fd_c {
+  flex-direction: column;
+}
+
+/* itmes对齐方式 */
+.al-i_bl {
+  align-items: baseline;
+}
+.al-i_ct {
+  align-items: center;
+}
+
+/* align-content 整体垂直的对齐方式 */
+.al-c_sb {
+  align-content: space-between;
+}
+.al-c_ct {
+  align-content: center;
+}
+
+/* justify-content 整体横轴的对齐方式 */
+.jt-c_sb {
+  justify-content: space-between;
+}
+
+/* padding  内边距属性*/
+.pd_15 {
+  padding: 15px;
+}
+
+.pd_30 {
+  padding: 30px;
+}
+
+.pd_t10 {
+  padding-top: 10px;
+}
+.pd_t15 {
+  padding-top: 15px;
+}
+
+.pd_bt15 {
+  padding-top: 15px;
+}
+
+.pd_20 {
+  padding: 20px;
+}
+
+.pd_40 {
+  padding: 40px;
+}
+
+.pd_L40 {
+  padding-left: 40px;
+}
+.pd_RL20 {
+  padding: 0px 20px;
+}
+
+.pd_RL30 {
+  padding: 0px 30px;
+}
+
+.pd_RL15 {
+  padding: 0px 15px;
+}
+
+.pd_BT15RL30 {
+  padding: 15px 30px;
+}
+
+/* margin 外边距属性*/
+.mg_0 {
+  margin: 0%;
+}
+.mg_15 {
+  margin: 15px;
+}
+
+.mg_b10 {
+  margin-bottom: 10px;
+}
+.mg_b15 {
+  margin-bottom: 15px;
+}
+
+.mg_t10 {
+  margin-top: 10px;
+}
+.mg_t15 {
+  margin-top: 15px;
+}
+
+.mg_L40 {
+  margin-left: 40px;
+}

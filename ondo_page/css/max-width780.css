@@ -16,15 +16,17 @@
     position: fixed;
     top: 0;
     left: 0;
-    justify-content: center;
+
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 150px;
     background-color: white;
     visibility: hidden;
     z-index: 122;
   }
   .menu_mw780 a {
-    margin: 0px 20px 20px;
-    padding: 40px;
     font-size: 35px;
+    margin: 0px;
   }
 
   .menu_mw780.visible {
@@ -43,5 +45,8 @@
   }
   .ft-s_25 {
     font-size: 17px;
+  }
+  .ft-s_40 {
+    font-size: 30px;
   }
 }

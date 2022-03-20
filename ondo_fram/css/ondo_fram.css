@@ -10,6 +10,9 @@
   max-width: 1000px;
   width: 100%;
 }
+.dp_flex {
+  display: flex;
+}
 
 /* 页面缩小后_基本页面外层的布局 */
 
@@ -202,11 +205,27 @@ menu a:hover {
   background-color: antiquewhite;
 }
 
+/* 颜色透明度 */
+.op_07 {
+  opacity: 0.7;
+}
+
 /* 对齐方式 */
 
 /* flex-direction 属性规定项目的方向。 */
 .fd_c {
   flex-direction: column;
+}
+.fd_cr {
+  flex-direction: column-reverse;
+}
+
+.fd_r {
+  flex-direction: row;
+}
+
+.fd_rw {
+  flex-direction: row-reverse;
 }
 
 /* itmes对齐方式 */
@@ -228,6 +247,12 @@ menu a:hover {
 /* justify-content 整体横轴的对齐方式 */
 .jt-c_sb {
   justify-content: space-between;
+}
+.jt-c_fe {
+  justify-content: flex-end;
+}
+.jt-c_sa {
+  justify-content: space-around;
 }
 
 /* padding  内边距属性*/
@@ -306,4 +331,8 @@ menu a:hover {
 
 .mg_L40 {
   margin-left: 40px;
+}
+
+.mg_R40 {
+  margin-right: 40px;
 }

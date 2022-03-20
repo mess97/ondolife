@@ -1,0 +1,95 @@
+.script-title {
+  margin: 0px;
+  padding: 100px 0px 40px;
+  text-align: center;
+  font-size: 25px;
+  opacity: 0.5;
+  transition: 0.3s;
+  text-shadow: 0px 10px 20px #715eff7c;
+  user-select: none;
+}
+.script-title:hover {
+  transition: 0.3s;
+  opacity: 1;
+  color: linear-gradient(147deg, #725380, #725eff 74%);
+}
+
+.ondo-script {
+  padding-top: 80px;
+}
+
+.ondo-script_img {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 400px;
+  height: 300px;
+  background-image: linear-gradient(147deg, #ffffff, #d9d2e4 74%);
+  -webkit-box-shadow: 0px 10px 20px #715eff15;
+  box-shadow: 0px 14px 80px #715eff31;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.ondo-script_img img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block;
+  opacity: 2;
+  border-radius: 20px;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  width: 100%;
+  height: 100%;
+}
+
+.ondo-script_text {
+  width: 400px;
+  height: 250px;
+}
+.ondo-script_text-h1 {
+  font-size: 25px;
+}
+
+.ondo-script_text-p {
+  opacity: 0.9;
+}
+@media screen and (max-width: 992px) {
+  .ondo-script_img {
+    width: 50%;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ondo-script {
+    padding-top: 0px;
+    margin-top: 40px;
+  }
+  .fd_cr768 {
+    flex-direction: column-reverse;
+  }
+  .fd_c768 {
+    flex-direction: column;
+  }
+
+  .ondo-script_img {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+  }
+  .ondo-script_text {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .script-title {
+    font-size: 17px;
+    padding: 80px 0px 40px;
+  }
+  .ondo-script_img {
+    width: 100%;
+    height: 250px;
+  }
+}

@@ -17,6 +17,7 @@
 /* 页面缩小后_基本页面外层的布局 */
 
 /* 基本属性 */
+
 /* 整体的基本属性 */
 body {
   margin: 0px;
@@ -93,13 +94,10 @@ menu a:hover {
 /* logo样式 */
 /* kr-logo的基本样式 */
 .kr-logo_30 {
-  font-size: 30px;
-  font-weight: 500;
-  font-family: "Jua", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  user-select: none;
   z-index: 1000;
-}
-.kr-logo_30 a:hover {
-  font-weight: 500;
 }
 
 /* 图形样式 */
